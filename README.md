@@ -1,6 +1,8 @@
 # wk5-oauth-jwt
 https://github.com/lenve/oauth2-samples
+
 https://www.javaboy.org/2020/0424/github-oauth2.html
+
 https://www.javaboy.org/2020/0421/oauth2-jwt.html
 
 Task1 is to setup OAuth authorization for Github and use Github's token as the user's basic identifier. Task2 is to setup JWT authentication: the front-end first carries a token in the header of each HTTP request, then the back-end verifies the validity period and legitimacy of the jwt token.
@@ -12,15 +14,11 @@ Task1 is to setup OAuth authorization for Github and use Github's token as the u
 <img src="./img/github.png" alt="github" width="50%">
 <p style="margin: 0;">Fig.1 Github OAuth Setup</p>
 
-then, cd github\_login/src/main/java/org/javaboy/github\_login/IndexController.java
+then, cd and input your client\_id and client\_secret from your github oauth setup to the file: github\_login/src/main/java/org/javaboy/github\_login/IndexController.java
 
-and input your client\_id and client\_secret from your github oauth setup.
+**Step2**, cd gnd run: github\_login/src/main/java/org/javaboy/github\_login/GithubLoginApplication.java
 
-**Step2**, cd gnd run ithub\_login/src/main/java/org/javaboy/github\_login/GithubLoginApplication.java
-
-as followed by the Fig.2 below. Save the terminal output:
-
-{access\_token=gho\_4Oq7GdSAxwm7Z8ZZdz2tLKFK7peTcB3H2qdr, token\_type=bearer, scope=user}
+As followed by the Fig.2 below. Save the terminal output: {access\_token=gho\_4Oq7GdSAxwm7Z8ZZdz2tLKFK7peTcB3H2qdr, token\_type=bearer, scope=user}
 
 <div style="text-align: center;">
     <img src="./img/oauth.png" alt="oauth" width="100%">
@@ -35,5 +33,5 @@ as followed by the Fig.2 below. Save the terminal output:
 </div>
 
 ## JWT
-**Step4**, 
+**Step1**, 
 
